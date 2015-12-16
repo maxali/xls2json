@@ -3,7 +3,13 @@ Excel to JSON
 
 Simple wrapper of https://github.com/SheetJS/js-xls library
 
-    var xls = require('./xls2json.js');
+# Install
+
+    npm install https://github.com/maxali/xls2json.git
+
+# Usage
+
+    var xls = require('xls2json');
     var file = xls.readFile('list.xls');
     
     // set work sheet
