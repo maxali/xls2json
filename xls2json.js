@@ -5,11 +5,9 @@ function xls(filename) {
 	self.workbook = null;
 	self.sheet = null;
 
-
 	self.readFile = function(filename) {
 		self.workbook = xls.readFile(filename);		
 		self.sheetNames = self.workbook.SheetNames;
-		console.log('executed;');
 	}
 
 	self.readFile(filename);
