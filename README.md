@@ -14,4 +14,4 @@ Simple wrapper of https://github.com/SheetJS/js-xls library
 
 or
 
-    var myjson = require('xls2json').toJSON('test.xls')
+    var myjson = require('xls2json')('test.xls').toJSON();
