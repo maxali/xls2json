@@ -1,0 +1,30 @@
+{
+  "name": "xls2json",
+  "version": "0.0.1",
+  "description": "Excel to JSON - Simple wrapper of js-xls library",
+  "main": "xls2json.js",
+  "scripts": {},
+  "author": "Maxali",
+  "license": "ISC",
+  "dependencies": {
+    "xlsjs": "^0.7.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxali/xls2json.git"
+  },
+  "keywords": [
+    "XSL",
+    "EXCEL",
+    "JSON",
+    "XLS2JSON",
+    "XSLJS",
+    "EXCEL",
+    "to",
+    "JSON"
+  ],
+  "bugs": {
+    "url": "https://github.com/maxali/xls2json/issues"
+  },
+  "homepage": "https://github.com/maxali/xls2json"
+}
